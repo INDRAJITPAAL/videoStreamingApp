@@ -30,7 +30,7 @@ app.get("/turn", (req, res) => {
     iceServers: [
       { urls: "stun:stun.l.google.com:19302" },
       {
-        urls: "turn:192.168.100.5:3478",
+        urls: "turn:20.243.200.64:3478",
         username: "turnuser",
         credential: "turnpassword"
       }
