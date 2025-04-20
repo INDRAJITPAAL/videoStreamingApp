@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Live Stream</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <h1>Live Stream</h1>
+
+  <div id="controls">
+    <button onclick="startStreamer()">Start Stream</button>
+    <button onclick="joinViewer()">Join as Viewer</button>
+  </div>
+
+  <video id="localVideo" autoplay playsinline muted></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+
+  <div id="chat-container">
+    <input type="text" id="chat-input" placeholder="Chat here" />
+    <div id="chat-box"></div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/client.js"></script>
+</body>
+</html>

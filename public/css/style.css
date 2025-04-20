@@ -1,0 +1,19 @@
+video {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  #controls {
+    margin-bottom: 10px;
+  }
+  #chat-container {
+    margin-top: 20px;
+  }
+  #chat-box {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
